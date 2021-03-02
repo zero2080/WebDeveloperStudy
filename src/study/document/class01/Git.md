@@ -96,3 +96,6 @@
     >   - Windows용 Git 보안 자격증명 저장소를 사용하기 위하여, Git 인증관리자 활성화
     > - `Enable symbolic links`
     >   - symbolic links 활성화
+
+13. 설치 완료
+    - ![](../../img/class01/chapter_01/git_step_11.png)
