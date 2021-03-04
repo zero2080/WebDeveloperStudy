@@ -2,7 +2,8 @@ package study.code.class02.chapter02;
 
 public class Operator_02 {
     public static void main(String[] args) {
-
+        char aa = 'a';
+        System.out.println(aa);
         /**
          *  사칙연산자
          */
@@ -21,9 +22,9 @@ public class Operator_02 {
         System.out.println(123+"짱짱맨");       // 123짱짱맨
         System.out.println(123+2+"짱짱맨");     // 125짱짱맨
         System.out.println("짱짱맨"+123);       // 짱짱맨123
-        System.out.println("짱짱맨"+123+2);     //짱짱맨1232
-        System.out.println("짱짱맨"+(123+2));   //짱짱맨125
-        System.out.println("짱짱맨"+123*2);     //짱짱맨246
+        System.out.println("짱짱맨"+123+2);     // 짱짱맨1232
+        System.out.println("짱짱맨"+(123+2));   // 짱짱맨125
+        System.out.println("짱짱맨"+123*2);     // 짱짱맨246
 
     }
 }

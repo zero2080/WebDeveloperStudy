@@ -14,15 +14,15 @@ public class Operator_01 {
         System.out.println(pNum);   //음수가 양수로 바뀌지도 않음
 
         System.out.println(num);    //200
-        num++;                      // num에 1을 더함
+        //num++;                      // num에 1을 더함
+        num = num+1; //과 같음
         System.out.println(num);    //201
-        num--;                      // num에서 1을 뺌
+        //num--;                      // num에서 1을 뺌
+        num = num-1; //과 같음;
         System.out.println(num);    //200
 
         System.out.println("후위연산 : " + num++);  //200출력   후위 연산   현제 행을 실행하고 해당 변수를 1증가시킴
         System.out.println(num);    //201출력
         System.out.println("전위연산 : " + ++num);  //202출력   전위 연산   현제 행을 실행하기 전에 해당변수에서 1을 감소시키고 실행
-        
-
     }
 }
