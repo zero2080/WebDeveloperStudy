@@ -51,12 +51,30 @@ public class Operator_03 {
          */
         System.out.println("=================== or 연산 / and 연산 ===================");
         if( i > j || i == 100 ){
-             System.out.println(" i는 j보다 크거나 i는 100이다");
-         }
-
+            System.out.println(" i는 j보다 크거나 i는 100이다");
+        }
+        
         if( i > j && i == 100 ){
             System.out.println(" i는 j보다 크고 i는 100이다");
         }
+        
+        /**
+         * 부정연산자
+         */
+        System.out.println("=================== !연산(부정/not) ===================");
+
+        boolean notOper = true;
+
+        if(!notOper){   //notOper는 true지만 부정연산자(!) 때문에 false로 연산된다.
+            System.out.println("true");
+        }else{
+            System.out.println("'!true' : false");
+        }
+
+        if( 10 !=20 ){
+            System.out.println("'10 != 20' : 10은 20과 같지 않다");
+        }
+
 
         /**
          * 삼항연산자 ( 조건식 ? true : false )
@@ -93,16 +111,6 @@ public class Operator_03 {
             //if문이 거짓일때 다음 조건문
         }else if(i>100){
             System.out.println("아님");
-        }else if(i>100){
-
-        }else if(i>100){
-
-        }else if(i>100){
-
-        }else if(i>100){
-
-        }else if(i>100){
-
         }else if(i>100){
 
         }

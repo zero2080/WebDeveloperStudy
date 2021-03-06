@@ -52,7 +52,7 @@
 
 ### Chapter 03
 > 조건문과 반복문
-> > - 조건문
+> > - [조건문](./src/study/document/class02/if.md)
 > > - 반복문
 
 ### Chapter 04
