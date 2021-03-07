@@ -85,6 +85,7 @@ public class Operator_03 {
         System.out.println(i>=j?"i는 j보다 크거나 같다":"i는 j보다 작거나 같다");
         System.out.println(i<=j?"i는 j보다 크거나 같다":"i는 j보다 작거나 같다");
         System.out.println(i==j?"i는 j와 같다":"i는 j와 다르다");
+        System.out.println(i!=j?"i는 j와 같지 않다":"i는 j와 같다");
 
         int result = i>j ? (i+j) : (i-j);
         System.out.println(result);
@@ -99,6 +100,13 @@ public class Operator_03 {
         bool = false;
 
         if(bool){
+            System.out.println("트루");
+        }else{
+            //거짓일때 실행
+            System.out.println("펄스");
+        }
+
+        if(!bool){
             System.out.println("트루");
         }else{
             //거짓일때 실행

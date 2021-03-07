@@ -53,7 +53,7 @@
 ### Chapter 03
 > 조건문과 반복문
 > > - [조건문](./src/study/document/class02/if.md)
-> > - 반복문
+> > - [반복문](./src/study/document/class02/loop.md)
 
 ### Chapter 04
 > 배열(Array)

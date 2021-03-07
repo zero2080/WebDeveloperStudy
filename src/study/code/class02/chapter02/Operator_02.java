@@ -17,6 +17,13 @@ public class Operator_02 {
         System.out.println("a 나누기 j의 몫은 " + a / j);
         System.out.println("a 나누기 j의 나머지 는 " + a % j);
         
+        System.out.println("a = "+a);
+        System.out.println("a += 5 / a = " + (a+=5));   // a = a+5; 와 같다
+        System.out.println("a -= 5 / a = " + (a-=5));   // a = a-5; 와 같다
+        System.out.println("a *= 5 / a = " + (a*=5));   // a = a*5; 와 같다
+        System.out.println("a /= 5 / a = " + (a/=5));   // a = a/5; 와 같다
+        System.out.println("a %= 5 / a = " + (a%=5));   // a = a%5; 와 같다
+
         System.out.println("====================== 문자열 더하기 ==============");
         System.out.println("오범수"+"짱짱맨");
         System.out.println(123+"짱짱맨");       // 123짱짱맨
