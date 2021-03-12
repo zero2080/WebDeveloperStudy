@@ -11,6 +11,8 @@
 > > `for`문 실행 전 `i`는 선언 되지 않는다.
 <br>
 
+![](../../img/class02/chapter_01/loop.png)
+
 [예제](../../code/class02/chapter03/Loop_For.java)
 
 <br>

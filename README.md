@@ -37,7 +37,6 @@
 ### Chapter 01
 > [변수(Variable)](./src/study/document/class02/variable.md)
 > > - 변수와 상수
-> > - 변수 타입
 > > - 기본형(primitive type)
 > > - 형변환
 
@@ -56,9 +55,9 @@
 > > - [반복문](./src/study/document/class02/loop.md)
 
 ### Chapter 04
-> 배열(Array)
-> > - 배열 활용
-> > - `String`배열
+> [배열(Array)](./src/study/document/class02/array.md)
+> > - 선언
+> > - 초기화
 > > - 다차원 배열
 
 ## Class 03.

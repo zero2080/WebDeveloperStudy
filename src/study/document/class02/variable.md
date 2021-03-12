@@ -6,13 +6,16 @@
 
 [[예제 코드]](../../code/class02/chapter01/VarNConst.java)
 
+----
 ## **변수 선언**
 ![](../../img/class02/chapter_01/variable.png)
 
+----
 ## **기본형 (primitive type)**
 기본형 이란 변수가 선언 될때 메모리에 직접적으로 저장되는 데이터 타입이다.
 자바에는 `기본형`과 `참조형` 타입이 있다.
 
+----
 ### 정수형
 정수형 숫자를 자바에서 표현하는 방식
 ![](../../img/class02/chapter_01/memory.png)
@@ -40,16 +43,14 @@
 
 변수타입마다 가질 수 있는 숫자의 범위는 있지만 다루는 숫자의 범위가 작다고 `byte`나 `short`를 쓰지 않아도된다. 연산이 되는 경우 내부에서 `int`로 변경되어 계산되기 때문인데 이는 우리가 `byte`나 `short`에 연연하지 않아도 된다는 의미이다.
 
-<br>
-
+----
 ### 실수형
 `float` 와 `double`
 > 이 두 타입을 붙여놓은 이유는 간단하다. `double`는 `float`보다 더 크거나 작은수를 표현할 수 있다. 그뿐이다.
 
 정리하면 우리가 자바에서 숫자를 다룰때 `정수형`인지 `실수형`인지만 잘 구분한다면 어려움이 없을것이다.
 
-<br>
-
+----
 ### 문자형
 >인코드(encode)와 디코드(decode)
 > > 컴퓨터는 문자를 표시하기위해 캐릭터셋(character set)이라는 표를 사용한다. 이는 각 숫자에 문자를 대응시켜놓은 표이고 메모리에 문자에 해당하는 숫자를 저장한다.
@@ -77,12 +78,49 @@
 
 `String`
 > 문자열을 다루는 객체이다. 데이터 타입으로 생각하면 나중에 혼돈이 올수 있으니 그냥 이건 객체라고 알고 넘어가자
-
-<br>
-
+----
 ### 논리형
 `boolean`
 > `true`와 `false` 두가지 값만 가질수 있는 논리형 데이터 타입이다.
 
 
 [예제 코드](../../code/class02/chapter01/Variable.java)
+
+----
+## 형변환(Type casting)
+- 서로 다른 데이터타입을 하나의 데이터타입으로 통일
+- 자동 형변환과 강제 형변환이 있음
+- 바이트 크기가 작은 자료형에서 큰 자료형으로 형 변환은 자동으로 이루어 짐
+- 덜 정밀한 자료형에서 더 정밀한 자료형으로읜 형 변환은 자동으로 이루어 짐
+
+```java
+byte bNum = 10;
+int iNum = bNum;  
+
+int iNum1 = 20;
+float fNum = iNum2;
+
+int iNum = 10;
+byte bNum = (byte)iNum;
+
+double dNum = 3.14;
+int iNum2 = (int)dNum;
+```
+## 연산 중 형 변환 예제
+
+```java
+public class TypeCast {
+
+	public static void main(String[] args) {
+
+		double dou = 1.5;
+		float flo = 0.6F;
+		
+		int i = (int)dou + (int)flo;
+		int j = (int)(dou + flo);
+		
+		System.out.println(i);
+		System.out.println(j);
+	}
+}
+```
