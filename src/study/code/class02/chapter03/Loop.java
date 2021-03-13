@@ -8,5 +8,12 @@ public class Loop {
             }
             System.out.println();
         }
+
+        for(String a ="오범수"; a.equals("오범수"); a = "김현욱"){
+            System.out.println(a);
+            
+        }
+
+        // System.out.println(a);
     }
 }
