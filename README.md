@@ -62,20 +62,20 @@
 
 ## Class 03.
 ### Chapter 01
-> 객체 지향_1
+> [객체 지향_1](./src/study/document/class03/OPP_01.md)
 > > - 객체 지향(개념)
 > > - 클래스와 객체
 > > - 변수와 메서드
-> > - 오버로딩(overloading)
-> > - 생성자(constructor)
-> > - 변수의 초기화
+> > - 제어자
 
 ### Chapter 02
 > 객체 지향_2
+> > - 생성자(constructor)
+> > - 변수의 초기화
 > > - 상속(inheritance)
+> > - 오버로딩(overloading)
 > > - 오버라이딩(overriding)
 > > - `package`와 `import`
-> > - 제어자
 > > - 다형성
 > > - 추상클래스
 > > - 인터페이스
