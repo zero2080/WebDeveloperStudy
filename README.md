@@ -70,9 +70,9 @@
 
 ### Chapter 02
 > 객체 지향_2
-> > - 생성자(constructor)
-> > - 변수의 초기화
-> > - 상속(inheritance)
+> > - [생성자(constructor)](./src/study/document/class03/OOP_02_constructor.md)
+> > - [변수의 초기화](./src/study/document/class03/OOP_03_variable_initialize.md)
+> > - [상속(inheritance)](./src/document/class03/OOP_03_inheritance.md)
 > > - 오버로딩(overloading)
 > > - 오버라이딩(overriding)
 > > - `package`와 `import`
