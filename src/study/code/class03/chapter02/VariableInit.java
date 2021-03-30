@@ -9,6 +9,7 @@ public class VariableInit {
         System.out.println(init.boo);   // false
         System.out.println(init.f);     // 0.0
         System.out.println(init.d);     // 0.0
+        System.out.println(init.ch);    // '' 빈칸
         System.out.println(init.str);   // null     String은 객체형이기 때문
     }
 }
@@ -22,5 +23,6 @@ class Init{
     boolean boo;
     float f;
     double d;
+    char ch;
     String str;
 }

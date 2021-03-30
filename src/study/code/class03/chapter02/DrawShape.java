@@ -27,15 +27,15 @@ class Point{
 	int x;
 	int y;
 	
-	Point (int x, int y){
+	public Point (int x, int y){
 		this.x = x;
 		this.y = y;
 	}
-	Point(){
+	public Point(){
 		this(0,0);
 	}
 	
-	String getXY() {
+	publicString getXY() {
 		return "("+x+","+y+")";	//x와 y값을 문자열로 반환
 	}
 }
