@@ -73,7 +73,7 @@
 > > - [생성자(constructor)](./src/study/document/class03/OOP_02_constructor.md)
 > > - [변수의 초기화](./src/study/document/class03/OOP_03_variable_initialize.md)
 > > - [상속(inheritance)](./src/study/document/class03/OOP_03_inheritance.md)
-> > - [오버로딩과 오버라이딩](./src/study/document/class03/OOP_03_over_loading_riding.md)
+> > - [오버로딩과 오버라이딩 그리고 super](./src/study/document/class03/OOP_03_over_loading_riding.md)
 > > - `package`와 `import`
 > > - 다형성
 > > - 추상클래스
