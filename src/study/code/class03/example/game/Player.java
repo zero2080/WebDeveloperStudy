@@ -1,6 +1,8 @@
 package study.code.class03.example.game;
 
-public class Player {
+import study.code.class03.example.game.job.Knight;
+
+public class Player extends Knight{
 	private String name;
 	private int fullHp =100; 
 	private int hp = 100;

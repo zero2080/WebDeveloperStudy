@@ -40,12 +40,12 @@ public class World {
 					
 					System.out.println("================= "+turn+"턴 ==================");
 					System.out.println("행동을 선택하세요>");
-					System.out.println("1: 공격 / 2: 도망 / 3:내정보");
+					System.out.println("1: 공격 / 4 : 휠윈드 / 2: 도망 / 3:내정보");
 					
 					int answer = scan.nextInt();
 
 					switch (answer) {
-					case 1:
+					case 1: case 4:
 						int m_life = p1.attack(m);
 						if(m_life==0) {
 							m=null;
