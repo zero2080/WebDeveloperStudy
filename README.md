@@ -1,9 +1,12 @@
-# 김현욱
-## 과정 : JAVA 입문
-### 일정 : 주 2회 (목, 토)
+# 웹개발자 과정
+
+# 오리엔테이션
+> - 강사소개
+> - 개발 개념 및 준비 사항
+> - 전체 커리큘럼 로드맵 리뷰
 
 # 커리큘럼
-## Class 01. 
+## Class 01.
 > - 들어가기 전에 "왜 자바인가?"
 ### [Chapter 01](./src/study/document/class01/SetupJava.md)
 > 개발환경 구축
@@ -23,15 +26,6 @@
 > 
 > JVM
 > > - Java Virtual Machine 역할과 구동원리
-
-## 기타
-### [GIT 설치](./src/study/document/class01/Git.md)
-> - Git이란?
-> - 형상관리 툴 설치 및 교제 활용법
-
-### [Git 사용법](./src/study/document/class01/UseGit.md)
-> - 저장소(`repository` 와 `branch`)
-> - `commit` , `push` , `pull`
 
 ## Class 02.
 ### Chapter 01
@@ -96,8 +90,12 @@
 > > - 지네릭스
 > > - 애너테이션
 > > - 입/출력
-> > - Networking
 
-## Class 05
-> Clone Coding
-> > - 채팅 프로그램(소캣통신)
+## 기타
+### [GIT 설치](./src/study/document/class01/Git.md)
+> - Git이란?
+> - 형상관리 툴 설치 및 교제 활용법
+
+### [Git 사용법](./src/study/document/class01/UseGit.md)
+> - 저장소(`repository` 와 `branch`)
+> - `commit` , `push` , `pull`
