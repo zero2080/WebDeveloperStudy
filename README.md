@@ -1,6 +1,6 @@
 # 웹개발자 과정
 
-# [오리엔테이션](./src/stury/document/orientation.md)
+# [오리엔테이션](./src/study/document/orientation.md)
 > - 강사소개
 > - 개발 개념 및 준비 사항
 > - 전체 커리큘럼 로드맵 리뷰
