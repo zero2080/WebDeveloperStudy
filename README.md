@@ -1,6 +1,6 @@
 # 웹개발자 과정
 
-# 오리엔테이션
+# [오리엔테이션](./src/stury/document/orientation.md)
 > - 강사소개
 > - 개발 개념 및 준비 사항
 > - 전체 커리큘럼 로드맵 리뷰
@@ -8,6 +8,7 @@
 # 커리큘럼
 ## Class 01.
 > - 들어가기 전에 "왜 자바인가?"
+
 ### [Chapter 01](./src/study/document/class01/SetupJava.md)
 > 개발환경 구축
 > - JDK설치
