@@ -12,7 +12,8 @@
 `--` : 감소 연산자
 > 값이 1씩 감소한다.    
 
-[[예제코드]](../../code/class02/chapter02/Operator_01.java)
+[[예제코드]](../../code/class03/chapter04/Operator_01.java)
+
 ----
 
 <br>
@@ -44,7 +45,7 @@ num*=5; // num = num*=5;와 같다  num은 50이 됨
 num/=5; // num = num/=5;와 같다  num은 10이 됨
 num%=5; // num = num%=5;와 같다  num은 0이 됨
 ```
-[[예제 코드]](../../code/class02/chapter02/Operator_02.java)<br>
+[[예제 코드]](../../code/class03/chapter04/Operator_02.java)<br>
 
 ## 비교연산자
 ### `>`, `<` ,`==`, `<=`, `>=`
@@ -98,7 +99,7 @@ num%=5; // num = num%=5;와 같다  num은 0이 됨
 > > - `10 != 20` = `true`
 > > - `10 != 10` = `false`
 >
-> [[예제 코드]](../../code/class02/chapter02/Operator_03.java)
+> [[예제 코드]](../../code/class03/chapter04/Operator_03.java)
 <br>
 
 ## 그 외 연산자
@@ -134,4 +135,4 @@ num%=5; // num = num%=5;와 같다  num은 0이 됨
 > `>>>` 오른쪽 shift
 > > `a>>>2` 변수 `a`를 2비트 만큼 오른쪽으로 이동하고 채워지는 비트 부호에상관없이 0을 채운다.
 > 
-> [[예제 코드]](../../code/class02/chapter02/Operator_04.java)
+> [[예제 코드]](../../code/class03/chapter04/Operator_04.java)

@@ -102,9 +102,9 @@
 > 1. 파일 내부에 `public class`가 존재하면 소스파일의 이름은 반드시 `public class`의 이름과 일치해야한다.
 > 2. 파일 내부에 `public class`없는 경우, 소스파일의 이름은 내부에 클래스들 중 하나의 이름을 따르면된다.
 > ![](../../img/class01/chapter_01/cl_filename.png)
-> [[예제 01]](../../code/class01/chapter01/TestClass.java) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-> [[예제 02]](../../code/class01/chapter01/TestClassCase01.java) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-> [[예제 03]](../../code/class01/chapter01/TestClassError.java)
+> [[예제 01]](../../code/class03/chapter02/TestClass.java) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+> [[예제 02]](../../code/class03/chapter02/TestClassCase01.java) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+> [[예제 03]](../../code/class03/chapter02/TestClassError.java)
 
 
 ## JVM(Java Virtual Machine)

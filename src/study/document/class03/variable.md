@@ -3,7 +3,7 @@
 ## **변수와 상수**
 - **변수** : 변하는 숫자
 - **상수** : 변하지 않는 숫자(`final`)<br>
-[[예제 코드]](../../code/class02/chapter01/VarNConst.java)
+[[예제 코드]](../../code/class03/chapter03/VarNConst.java)
 
 ----
 ## **변수 선언**
@@ -77,7 +77,7 @@
 
 #### `char`
 > 단 1개의 문자만 저장가능한 기본형 데이터 타입이다.<br>
-[[예제 코드]](../../code/class02/chapter01/CharactorType.java)
+[[예제 코드]](../../code/class03/chapter03/CharactorType.java)
 <br>
 
 #### `String`
@@ -86,7 +86,7 @@
 ### 논리형
 #### `boolean`
 > `true`와 `false` 두가지 값만 가질수 있는 논리형 데이터 타입이다.<br>
-[예제 코드](../../code/class02/chapter01/Variable.java)
+[예제 코드](../../code/class03/chapter03/Variable.java)
 
 ----
 ## 형변환(Type casting)

@@ -9,13 +9,16 @@
 ## Class 01.
 ### [Chapter 01](./src/study/document/class01/Introduce.md)
 > - 웹 표준 이론
+> - HTML 
+> - CSS
+> - 예제 페이지
 
 ## Class 02.
 > - JavaScript
 
 ## Class 03.
 > - JAVA
-### Chapter 01.
+### Chapter 00.
 > - 들어가기 전에 "왜 자바인가?"
 
 ### [Chapter 01](./src/study/document/class03/SetupJava.md)

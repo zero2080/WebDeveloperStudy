@@ -39,4 +39,4 @@
      }
      ```
 
-[[예제]](../../code/class02/chapter02/Operator_03.java)
+[[예제]](../../code/class03/chapter04/Operator_03.java)
