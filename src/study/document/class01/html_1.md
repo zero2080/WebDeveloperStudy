@@ -148,9 +148,13 @@
 
 ## 5. 표를 나타내는 태그 – `table`
 > 표형식의 레이아웃을 만드는 태그로, 예전에는 웹사이트의 전체적인 레이아웃을 만들었으나 현재는 회원가입폼이나 로그인폼, 게시판폼 등에 다양하게 사용된다.
-> > 1. `tr` : 표 내부의 행 태그
-> > 2. `th` : 행 내부의 열. 제목 셀 태그
-> > 3. `td` : 행 내부의 열. 일반 셀 태그
+> > 1. `caption` : 표 제목
+> > 2. `thead` : 표 제일 첫줄
+> > 3. `tbody` : 표 본문
+> > 4. `tfoot` : 표 제일 마지막 줄
+> > 5. `tr` : 표 내부의 행 태그
+> > 6. `th` : 행 내부의 열. 제목 셀 태그
+> > 7. `td` : 행 내부의 열. 일반 셀 태그
 ```html
 <!DOCTYPE html>
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
@@ -172,19 +176,24 @@
     </head>
     <body>
         <table>
-            <tr>
-                <td rowspan="3">1행1열</td>
-            </tr>
-            <tr>
-                <td>2행2열</td>
-                <td>2행3열</td>
-                <td>2행4열</td>
-            </tr>
-            <tr>
-                <td>3행2열</td>
-                <td>3행3열</td>
-                <td>3행4열</td>
-            </tr>
+			<caption>
+				표 제목
+			</caption>
+			<tbody>
+				<tr>
+					<td rowspan="3">1행1열</td>
+				</tr>
+				<tr>
+					<td>2행2열</td>
+					<td>2행3열</td>
+					<td>2행4열</td>
+				</tr>
+				<tr>
+					<td>3행2열</td>
+					<td>3행3열</td>
+					<td>3행4열</td>
+				</tr>
+			</tbody>
         </table>
     </body>
 </html>
@@ -212,20 +221,26 @@
 <body>
 	<table>
 		<caption>table ex2</caption>
-		<tr>
-			<th>국어</th>
-			<th>영어</th>
-			<th>수학</th>
-		</tr>
-		<tr>
-			<td>100</td>
-			<td>60</td>
-			<td>80</td>
-		</tr>
-		<tr>
-			<th colspan="2">평균</th>
-			<td>80</td>
-		</tr>
+		<thead>
+			<tr>
+				<th>국어</th>
+				<th>영어</th>
+				<th>수학</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>100</td>
+				<td>60</td>
+				<td>80</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="2">평균</th>
+				<td>80</td>
+			</tr>
+		<tfoot>
 	</table>
 </body>
 </html>
@@ -252,21 +267,27 @@
 <body>
 	<table>
 		<caption>table ex3</caption>
-		<tr>
-			<th rowspan="3">중간고사성적</th>
-			<th>국어</th>
-			<th>영어</th>
-			<th>수학</th>
-		</tr>
-		<tr>
-			<td>100</td>
-			<td>60</td>
-			<td>80</td>
-		</tr>
-		<tr>
-			<th colspan="2">평균</th>
-			<td>80</td>
-		</tr>
+		<thead>
+			<tr>
+				<th rowspan="3">중간고사성적</th>
+				<th>국어</th>
+				<th>영어</th>
+				<th>수학</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>100</td>
+				<td>60</td>
+				<td>80</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th colspan="2">평균</th>
+				<td>80</td>
+			</tr>
+		</tfoot>
 	</table>
 </body>
 </html>
@@ -280,7 +301,7 @@
 > 
 ```html
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
     <title></title>
@@ -291,7 +312,7 @@
 	<p><img src="img/WTF.jpg" alt="어?!금지"></p>
 	<p><img src="img/WTF.jpg" alt="설현1" width="100"></p>
 	<p><img src="img/WTF.jpg" alt="설현1" width="50" height="100"></p>
-<!--요즘 width는 css에서 주로 조정-->
+	<!--요즘 width는 css에서 주로 조정-->
 	<p><img src="http://cafefiles.naver.net/20160322_244/alsdnr0054_14586562713882lIBe_JPEG/Na1458656261413.jpg" alt="웹설현"></p>
 </body>
 </html>
