@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        아 &nbsp; 이 &nbsp;디 : <input type="text" name="uname" />
+        <input type="button" value="아이디확인" />
+        <br />
+        비밀번호 : <input type="password" name="upw" /><br />
+        전화번호 : <input type="text" name="uphone1" size="3" />-
+        <input type="text" name="uphone2" size="4" />-
+        <input type="text" name="uphone3" size="4" /><br />
+        사 &nbsp; &nbsp; &nbsp;진 :<input type="file" name="ufilename" /><br />
+        성별구분 : <input type="radio" name="gender" value="m" />남
+        <input type="radio" name="gender" value="f" />여<br />
+        사용언어 : <input type="checkbox" name="lang" value="kor" checked="checked" />한글
+        <input type="checkbox" name="lang" value="eng" />영어
+        <input type="checkbox" name="lang" value="chi" />중국어
+        <input type="checkbox" name="lang" value="ind" />인도어<br />
+        자기소개:<br />
+        <textarea rows="5" cols="25" name="intro"></textarea><br />
+        국 &nbsp; &nbsp; &nbsp;적:
+        <select name="nation">
+            <option>대한민국</option>
+            <option>미국</option>
+            <option>중국</option>
+            <option>인도</option>
+        </select><br />
+        좋아하는음식 :
+        <select multiple="multiple" name="food">
+            <option>불고기</option>
+            <option>닭고기</option>
+            <option>돼지고기</option>
+            <option>샐러드</option>
+        </select>
+        <p>좋아하는 색상:<input type="color" name="c" /><br />
+            좋아하는 정도:0 <input type="range" name="step" min="0" max="100" step="10" />100</p>
+        <p>홈피:<input type="url" name="homepy" /></p>
+        <p><input type="submit" value="입력" /></p>
+    </form>
+</body>
+
+</html>

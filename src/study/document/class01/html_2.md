@@ -49,9 +49,18 @@
     - `reset` : 초기화 버튼
     - `submit` : 제출 버튼
     - `text` : 글자 입력 양식을 생성
+    - `password` : 비밀번호 입력 양식을 생성
+    - `color` : 색상 선택 양식을 생성
+
+- `select`태그 어트리뷰트
+  - `multiple`: 다중선택 가능 옵션
+  - 하위요소
+    - `option`: 내부 옵션 설정
 
 ![예제](../../img/class01/ex_form_1.png)
 - 다음과 같은 화면 설계를 하시오
+
+[코드](../../../../src/study/code/class01/chapter03/form_01.html)
 
 
 ## 게시판 예제
