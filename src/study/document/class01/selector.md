@@ -475,38 +475,22 @@
 </html>
 ```
 
-※ 다음과 같은 테이블에 마우스를 올려놓으면 초록색으로 반응하는 페이지를 만들어 보시오.
-```html
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-    <style>
-        table{
-            border: 1px solid green;
-            background-color: lightyellow;
-            font-size: 30px;
-        }
-        tr:hover{
-            background-color:green;
-            color:white;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <tr><td>1행1열</td><td>1행2열</td></tr>
-        <tr><td>2행1열</td><td>2행2열</td></tr>
-        <tr><td>3행1열</td><td>3행2열</td></tr>
-        <tr><td>4행1열</td><td>4행2열</td></tr>
-    </table>
-</body>
-</html>
-```
+※ 다음과 같은 테이블에 마우스를 올려놓으면 초록색으로 반응하는 페이지를 만들어 보시오.<br/>
+![테스트이미지](../../img/class01/chapter_05/test_hover.png)
+
+<br/>
+<br/>
+<br/>
+
+[[코드보기]](../../code/class01/chapter05/hover.html)
+
+<br/>
+<br/>
+
 
 11.	상태 선택자 
-> 상태에 따라 CSS속성이 변화하는 설정을 할 수 있다.  `ex. input태그의 경우 focus가 맞혀졌을 때`
+> 상태에 따라 CSS속성이 변화하는 설정을 할 수 있다. 
+> > `ex. input태그의 경우 focus가 맞혀졌을 때`
 ```html
 <!DOCTYPE html>
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
@@ -601,7 +585,7 @@
 13.	전체적인 레이아웃 설정 
 > 지금까지 살펴본 내용을 바탕으로 아래의 레이아웃을 설정해 봅니다
  
-![이미지](../../img/class01/example.jpg)
+![이미지](../../img/class01/chapter_05/test_final_css.png)
 
 
 14.	문자 선택자
@@ -832,7 +816,7 @@
             <ul>
                 <li><a href="http://www.naver.com" target="_blank">네이버</a></li>
                 <li><a href="http://www.google.com" target="_blank">구글</a></li>
-                <li><a href="http://www.tjoeunit.co.kr" target="_blank">더조은IT아카데미</a></li>
+                <li><a href="http://www.daum.net" target="_blank">다음</a></li>
             </ul>
         </div>
         <div id="footer">
@@ -890,8 +874,7 @@
             <ul>
                 <li><a href="http://www.naver.com" target="_blank">네이버</a></li>
                 <li class="fa"><a href="http://www.google.com" target="_blank">구글</a></li>
-                <li><a href="http://www.yahoo.com" target="_blank">야후</a></li>
-                <li class="fa"><a href="http://www.tjoeunit.co.kr" target="_blank">더조은IT아카데미</a></li>
+                <li class="fa"><a href="http://www.daum.net" target="_blank">다음</a></li>
             </ul>
         </div>
         <div id="footer">
