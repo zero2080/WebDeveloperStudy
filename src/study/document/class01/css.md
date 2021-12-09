@@ -100,7 +100,7 @@
             width: 80%;
             height: 100%;
             margin: 0 auto;
-            background-image:url('sulhyun.jpg');  /*원격지 url도 가능*/
+            background-image:url('address.jpg');  /*원격지 url도 가능*/
             font-size:2em;
             color: #0026ff;
             font-weight:bold;
@@ -111,7 +111,7 @@
 </head>
 <body>
     <div id="wrap">
-        <div id="content">설현이 대세</div>
+        <div id="content">백그라운드 이미지</div>
     </div>
 </body>
 </html>
@@ -127,7 +127,7 @@
     <title></title>
 	<style>
 		div{width:80%; margin:0 auto; height:400px;border:1px solid red; 
-			border:1px solid red;background-image:url('sulhyun.jpg');}
+			border:1px solid red;background-image:url('address.jpg');}
 		div:nth-child(1){ background-position: left top; } /* 배경 이미지를 어디에 위치시킬 것인지 조정*/
 		div:nth-child(3){ background-position:right top; } /*left(왼쪽정렬x축) right(오른쪽정렬x축)*/
 		div:nth-child(5) { background-position:left center; }/* top(위쪽정렬y축) bottom(아래쪽정렬y축)*/
@@ -139,17 +139,17 @@
 	</style>
 </head>
 <body>
-	<div><h1>설현</h1></div>
+	<div><h1>이미지</h1></div>
 	<br />
 	<div><h1>뉴스</h1></div>
 	<br />
-	<div><h1>설현</h1></div>
+	<div><h1>이미지</h1></div>
 	<br />
-	<div><h1>설현</h1></div>
+	<div><h1>이미지</h1></div>
 	<br />
-	<div><h1>설현</h1></div>
+	<div><h1>이미지</h1></div>
 	<br />
-	<div><h1>설현</h1></div>
+	<div><h1>이미지</h1></div>
 </body>
 </html>
 ```
@@ -163,7 +163,7 @@
 	<style>
 		div{
 			width:80%; height:600px; margin:20px auto;
-			background-image: url('sulhyun.jpg');
+			background-image: url('address.jpg');
 			background-attachment:fixed;
 			/* 이미지를 가져오는 시작점을 브라우저의 맨위좌측에서 부터 */
 		}
