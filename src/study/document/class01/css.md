@@ -14,8 +14,8 @@
 > 12.	float
 > 13.	gradient14.	웹폰트
 
-1.	CSS3 단위
-> CSS3에서 자주 사용되는 단위들에 대해서 살펴봅니다 (http://pxtoem.com/)
+1. `CSS3` 단위
+> `CSS3`에서 자주 사용되는 단위들에 대해서 살펴봅니다 (http://pxtoem.com/)
 ```html
 <!DOCTYPE html>
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
@@ -175,10 +175,10 @@
 </html>
 ```
 4. `display` 속성
-   > 화면에 어떻게 보이는지를 설정하는 속성. 다양한 속성값이 있지만, 주로 몇가지만 많이 사용됩니다 `display` 속성의 다음 속성값은 매우 중요합니다
-> > 1. `block` : `div`태그 `p`태그 `li`태그 - 높이의 속성이 있다.
-> > 2. `inline` : `span`태그 - 높이의 속성이 없다.
-> > 3. `inline-block` : `block`의 속성을 갖고 옆으로 붙여 나가는 것 - 높이의 속성이 있다.
+ > 화면에 어떻게 보이는지를 설정하는 속성. 다양한 속성값이 있지만, 주로 몇가지만 많이 사용됩니다 `display` 속성의 다음 속성값은 매우 중요합니다
+ > 1. `block` : `div`태그 `p`태그 `li`태그 - 높이의 속성이 있다.
+ > 2. `inline` : `span`태그 - 높이의 속성이 없다.
+ > 3. `inline-block` : `block`의 속성을 갖고 옆으로 붙여 나가는 것 - 높이의 속성이 있다.
 ```html
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -212,9 +212,9 @@
 </html>
 ```
 5. `visibility` 속성
-   > `display` 속성의 `none`속성값과 비교하여 이해합니다
- > > 1. `visibility:hidden`은 공간은 확보, 안보임
- > > 2.	`display:none`은 공간도 사라짐
+ > `display` 속성의 `none`속성값과 비교하여 이해합니다
+ > 1. `visibility:hidden`은 공간은 확보, 안보임
+ > 2. `display:none`은 공간도 사라짐
 ```html
 <html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -363,7 +363,7 @@
 ```
 
 * 다음 공지사항 화면을 만들어 보자
- 
+![](../../img/class01/chapter_05/notice.png)
 
 8. `box-sizing` 속성
 > `box-sizing` 속성을 이용하면 전체 사이즈의 크기를 변경 할 수 있습니다
@@ -404,7 +404,6 @@
 </body>
 </html>
 ```
-
 
 9. `border` 속성
 > `border` 속성을 변경할 수 있습니다
@@ -459,6 +458,7 @@
 </body>
 </html>
 ```
+
 10.	글자 관련된 속성들
 > - `font-family` : 글꼴 
 > - `font-size` : 크기

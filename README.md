@@ -14,7 +14,7 @@
 > - 예제 페이지
 
 ## Class 02.
-> - [[JavaScript]](./src/study/document/class02/Introduce.md)
+### [[JavaScript]](./src/study/document/class02/Introduce.md)
 
 ## Class 03.
 > - JAVA
