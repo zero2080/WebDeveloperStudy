@@ -1,18 +1,18 @@
 # CSS 속성들
 
-1.	CSS3 단위들: em, %, px
-2.	url() : 백그라운드 이미지
-3.	background-image
-4.	display : inline, block, inline-block, none
-5.	visibility
-6.	opacity
-7.	margin과 padding
-8.	boxing-sizing ; border를 box안으로
-9.	border
-10.	글자관련 속성; font-family, font-size, font-weight, font-style, line-height, text-align, text-decoration
-11.	position
-12.	float
-13.	gradient14.	웹폰트
+> 1.	CSS3 단위들: em, %, px
+> 2.	url() : 백그라운드 이미지
+> 3.	background-image
+> 4.	display : inline, block, inline-block, none
+> 5.	visibility
+> 6.	opacity
+> 7.	margin과 padding
+> 8.	boxing-sizing ; border를 box안으로
+> 9.	border
+> 10.	글자관련 속성; font-family, font-size, font-weight, font-style, line-height, text-align, text-decoration
+> 11.	position
+> 12.	float
+> 13.	gradient14.	웹폰트
 
 1.	CSS3 단위
 > CSS3에서 자주 사용되는 단위들에 대해서 살펴봅니다 (http://pxtoem.com/)
