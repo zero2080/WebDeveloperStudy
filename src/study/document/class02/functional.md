@@ -1,4 +1,5 @@
 # 함수
+
 > 목표 : 익명함수, 선언함수, 매개변수와 리턴값, 가변인자함수, 내부함수, 콜백함수, 클로저함수, 내장함수(https://www.w3schools.com/jsref, http://devdocs.io/javascript)
 
 ## 1. 익명 함수
