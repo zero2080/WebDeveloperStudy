@@ -1,7 +1,7 @@
 |No|content|etc|link|
 |:-:|:--|:-:|:-:|
-|1| 자바스크립트 |작동원리 및 개발환경|[link](./javascript.md)|
-|2| 변수| 변수 선언과 연산자|[link](./variable.md)|
+|1| 자바스크립트-1 |작동원리 및 개발환경|[link](./javascript.md)|
+|2| 자바스크립트-2 |기본문법|[link](./javascript2.md)|
 |3| 조건문 | if 문 |[link](./if.md)|
 |4| 반복문 | `for`,`while` |[link](./loof.md)|
 |5| 함수 | 함수형 언어 및 선언 |[link](./functional.md)|
