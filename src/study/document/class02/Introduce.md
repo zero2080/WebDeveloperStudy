@@ -7,6 +7,6 @@
 |5| 함수 | 함수형 언어 및 선언 |[link](./functional.md)|
 |6| 객체-1 | JSON과 객체타입 |[link](./object.md)|
 |7| 객체-2 | 생성자 | [link](./constructor.md)|
-|8| 브라우저 객체 | `window`객체 |[link](./window.md)|
+|8| 기본내장객체 | 내장객체 |[link](./defaultObject.md)|
 |9| DOM핸들링 | 엘리먼트제어 |[link](./dom.md)|
 |10| storage | `local`, `session` | [link](./storage.md)|
