@@ -24,8 +24,8 @@ public class Variable {
 		
 		System.out.println("float 타입 최소 : "+Float.MIN_VALUE);
 		System.out.println("float 타입 최대 : "+Float.MAX_VALUE);
-		System.out.println("double 타입 최소 : "+Float.MIN_VALUE);
-		System.out.println("double 타입 최대 : "+Float.MAX_VALUE);
+		System.out.println("double 타입 최소 : "+Double.MIN_VALUE);
+		System.out.println("double 타입 최대 : "+Double.MAX_VALUE);
 		
 		//문자형
 		char ch = 'c';		//1개의 문자만 저장할 수 있다.
