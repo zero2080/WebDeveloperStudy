@@ -5,7 +5,7 @@ public class Ex02 {
 		Ex01	 	ex01	=	 new Ex01();
 		Ex01	 	ex02	=	 new Ex01();
 		Ex01	 	ex03	=	 new Ex01();
-	/* 클래스	클래스변수명	클래스 생성자		*/
+	     /* 클래스	    클래스변수명	     클래스 생성자		*/
 		ex01.publicPrint();
 		ex01.defaultPrint();
 		ex01.protectedPrint();
