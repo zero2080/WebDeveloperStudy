@@ -74,7 +74,7 @@ public class God {
 		
 		Human khw = new Human("김현욱", 32, 180,80);
 		
-		String data = khw.info;
+		String data = khw.info();
 		System.out.println(data);
 	}
 
