@@ -23,8 +23,8 @@ public class Ex01 {
 		System.out.println("private");
 	}
 	
-    void defaultPrint() {
-    	this.privatePrint();		//this는 나 자신을 가리킨다.
+    	void defaultPrint() {
+    		this.privatePrint();		//this는 나 자신을 가리킨다.
 		System.out.println("default");
 	}
 	
