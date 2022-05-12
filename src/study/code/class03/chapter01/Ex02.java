@@ -12,9 +12,9 @@ public class Ex02 {
 //		ex01.privatePrint();
 		
 		int i = 0;
-			i = i+1;
-			i += 1;
-			i++;
+		i = i+1;
+		i += 1;
+		i++;
 		System.out.println(ex01.add(199,1));
 		System.out.println(ex01.loop(1, 10));
 		
