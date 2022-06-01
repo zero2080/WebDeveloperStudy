@@ -8,7 +8,6 @@
   - `float` : 0.0으로 초기화
   - `double` : 0.0으로 초기화
   - `boolean` : `false`로 초기화
-- 형 변수들은 `null`로 초기화된다.
 - 객체형 변수들은 `null`로 초기화된다.  
 [[예제코드]](../../code/class03/chapter02/VariableInit.java)
 
