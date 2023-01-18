@@ -45,7 +45,18 @@
 ### Infrastructure
 - 인프라 라고 하면 보통 배포에 대한 환경의 전반을 다룬다.
 - 서버구동 환경, Database 세팅, 프로세스 구동환경 등을 전반적으로 세팅 및 관리한다.
+> #### AWS( Amazon Web Service )
+> > 아마존에서 제공하는 클라우드 컴퓨팅 서비스로 웹서비스를 운영하기위한 대표적인 서비스다.
+> > - EC2 ( Elastic Cloud Computer )
+> > - RDS ( Releation Database Storage )
+> > - Route53 등 
 
 ### DevOps
 - Development와 Operation의 약자로 개발자가 개발에대한 전반적으로 관리할수있는 환경을 구축하고 운영하는것을 의미한다.
 - 배포, 모니터링, 버전관리, 오류 추적, 프로세스 활동 분석, 사용자 황동분석 등
+> #### ElasticSearch
+> > 서비스 개발 및 운영에 필요한 많은 기느을 제공한다.
+> > - APM : 인스턴스 상태 모니터링
+> > - FileBeat : 파일전송 모니터링
+> > - Logstash : 로그분석기
+> > - Kibana : ElasticSearch WEB GUI / 데이터 시각화
